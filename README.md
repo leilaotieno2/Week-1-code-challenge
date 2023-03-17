@@ -2,7 +2,7 @@
 week 1 code challenge
 <h1>
 
-<h1>Challenge 2:Student Grade Generator </h1>
+<h1>Challenge 1:Student Grade Generator </h1>
 <p> This code prompts the user to input student marks. The input is between be between 0 and 100. Then output the correct grade as follows:</p>
 <ul>
 <li>A > 79</li>
@@ -21,5 +21,5 @@ For example, if the speed is 80, it should print: “Points: 2”. If the driver
  
 
 <h1>Challenge 3: Net Salary Calculator (Toy Problem)</h1>
-Given the basic salary and benefits of an employee, write a program that would calculate the Payee Tax, NHIF, NSSF Deductions and net salary.
+Given the basic salary and benefits of an employee, the program calculates the Payee Tax, NHIF, NSSF Deductions and net salary.
 
