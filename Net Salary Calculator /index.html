@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Salary Calculator</title>
+	<link rel="stylesheet" type="text/css" href="styles.css"> <!-- Import the CSS file for styling -->
+</head>
+<body>
+	<h1>Salary Calculator</h1> <!-- Create a header for the page -->
+	<form> <!-- Create a form for user input -->
+		<label for="basic-salary">Basic Salary:</label> <!-- Create a label for the basic salary input field -->
+		<input type="number" id="basic-salary" name="basic-salary" required> <!-- Create an input field for the basic salary -->
+		<label for="benefits">Benefits:</label> <!-- Create a label for the benefits input field -->
+		<input type="number" id="benefits" name="benefits"> <!-- Create an input field for the benefits -->
+		<button type="button" onclick="calculate()">Calculate</button> <!-- Create a button for the user to calculate the salary -->
+	</form>
+	<div id="results"> <!-- Create a div to display the results of the salary calculation -->
+		<h2>Results:</h2> <!-- Create a header for the results section -->
+		<p>Payee Tax: <span id="payee-tax"></span></p> <!-- Display the payee tax deduction -->
+		<p>NHIF Deductions: <span id="nhif-deductions"></span></p> <!-- Display the NHIF deductions -->
+		<p>NSSF Deductions: <span id="nssf-deductions"></span></p> <!-- Display the NSSF deductions -->
+		<p>Net Salary: <span id="net-salary"></span></p> <!-- Display the net salary after deductions -->
+	</div>
+	<script src="netsalary.js"></script> <!-- Import the JavaScript file for the salary calculation logic -->
+</body>
+</html>
+
