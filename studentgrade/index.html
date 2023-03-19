@@ -1,24 +1,39 @@
+<!-- This is the start of an HTML document -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Set the character encoding for the document -->
     <meta charset="UTF-8">
+    <!-- Set the title of the page -->
     <title>Student Grade Calculator</title>
-	
+    <!-- Link to an external stylesheet for styling the page -->
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <!-- Heading level 1 with the school name -->
     <h1>Cape View School</h1>
+    <!-- Heading level 2 with the title of the page -->
     <h2> studentgrade</h2>
+    <!-- Start of a form for user input -->
     <form>
+      <!-- Label for the name input field -->
       <label for="name">Name:</label>
+      <!-- Input field for the name with a required attribute -->
       <input type="text" id="name" required>
+      <!-- Label for the class input field -->
       <label for="class">Class:</label>
+      <!-- Input field for the class with a required attribute -->
       <input type="text" id="class" required>
+      <!-- Label for the marks input field -->
       <label for="marks">Marks:</label>
+      <!-- Input field for the marks with a number type, min and max attributes, and required attribute -->
       <input type="number" id="marks" min="0" max="100" required>
+      <!-- Button for calculating the grade with an ID of "calculate" -->
       <button id="calculate">Calculate Grade</button>
     </form>
+    <!-- Placeholder div for displaying the calculated grade -->
     <div id="output"></div>
+    <!-- Link to an external JavaScript file for calculating the grade -->
     <script src="studentgrade.js"></script>
   </body>
 </html>

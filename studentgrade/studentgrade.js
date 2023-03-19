@@ -14,7 +14,7 @@ calculateBtn.addEventListener('click', () => {
   if (marks < 0 || marks > 100 || isNaN(marks)) {
     window.alert('Invalid input. Please enter a number between 0 and 100.');
   } else {
-    // Determine the grade based on the marks
+    // Determining  the grade based on the marks
     let grade;
     if (marks >= 80) {
       grade = 'A';
@@ -28,7 +28,7 @@ calculateBtn.addEventListener('click', () => {
       grade = 'E';
     }
 
-    // Display the grade in a window prompt
+    // Displaying the grade in a window prompt
     window.alert(`Hi ${name}, your grade for ${className} is ${grade}.`);
   }
 });
