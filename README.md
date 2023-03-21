@@ -1,5 +1,7 @@
 # Week 1 code challenge
 week 1 code challenge
+<h1>Author</h1>
+Leila Otieno
 <h1>
 
 <h1>Challenge 1:Student Grade Generator </h1>
