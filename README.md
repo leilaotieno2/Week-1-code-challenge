@@ -1,7 +1,5 @@
 # Week 1 code challenge
 week 1 code challenge
-<h1>Author</h1>
-Leila Otieno
 <h1>
 
 <h1>Challenge 1:Student Grade Generator </h1>
@@ -24,6 +22,11 @@ For example, if the speed is 80, it should print: “Points: 2”. If the driver
 
 <h1>Challenge 3: Net Salary Calculator (Toy Problem)</h1>
 Given the basic salary and benefits of an employee, the program calculates the Payee Tax, NHIF, NSSF Deductions and net salary.
+ NB: Using KRA, NHIF, and NSSF values provided in the link below.
+ 
+https://www.aren.co.ke/payroll/taxrates.htmLinks to an external site.  
+
+https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/payeLinks to an external site.
 
 <h1>MIT License</h1>
 
